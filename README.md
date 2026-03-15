@@ -17,7 +17,7 @@ The solution calculates real-time health scores and solves geographic mapping is
 
 ### **End-to-End Data Lineage**
 
-> ![Data Lineage View](PASTE_LINK_TO_LINEAGE_IMAGE_HERE)
+> ![Data Lineage View]<img width="2192" height="1099" alt="Image" src="https://github.com/user-attachments/assets/93e4ace8-f13f-43c1-a02b-e21e46d58da1" />
 > *This view shows the flow from the Landing Files through the Bronze, Silver, and Gold Delta tables, illustrating the full "OneLake" integration.*
 
 ---
@@ -43,7 +43,7 @@ Data is structured into a **Star Schema** for high-performance reporting.
 The entire workflow is automated using a **Fabric Data Pipeline**, allowing the "Random Generator" to trigger a full refresh of the reporting layer.
 
 ### **Pipeline Execution Flow**
-> ![Pipeline Execution](PASTE_LINK_TO_PIPELINE_IMAGE_HERE)
+> ![Pipeline Execution]<img width="1580" height="350" alt="Image" src="https://github.com/user-attachments/assets/d5ff209d-42af-4252-8789-f71a79235c8e" />
 > *This screenshot confirms the successful sequential execution of the Generator, Bronze, Silver, and Gold notebooks.*
 
 ---
@@ -52,11 +52,11 @@ The entire workflow is automated using a **Fabric Data Pipeline**, allowing the 
 The final output is a high-performance Power BI report utilizing the **Direct Lake** engine for near-zero latency.
 
 ### **Semantic Model (Relationship Diagram)**
-> ![Semantic Model](PASTE_LINK_TO_MODEL_IMAGE_HERE)
+> ![Semantic Model]<img width="1122" height="588" alt="Image" src="https://github.com/user-attachments/assets/48686e74-0b26-4cfb-81ff-cb7454b69e92" />
 > *Showing the 1-to-Many relationship between `dim_asset` and `fact_asset_readings` using AssetID.*
 
 ### **Power BI Dashboard**
-> ![Power BI Dashboard](PASTE_LINK_TO_DASHBOARD_IMAGE_HERE)
+> ![Power BI Dashboard]<img width="1979" height="1107" alt="Image" src="https://github.com/user-attachments/assets/aac790fa-597c-407c-8f5d-4b4a6746079e" />
 > *Highlighting the New Zealand map pins and the critical asset watchlist.*
 
 ---
