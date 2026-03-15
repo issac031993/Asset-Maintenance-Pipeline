@@ -1,4 +1,4 @@
-# 🏗️ Omexom Asset Health: Predictive Maintenance & NZ Grid Reliability
+# 🏗️ Asset Health: Predictive Maintenance & NZ Grid Reliability
 
 ## 📖 Project Overview
 This project demonstrates a production-grade **End-to-End Data Engineering Pipeline** built within **Microsoft Fabric**. It utilizes **programmatically generated telemetry** to simulate high-value electrical assets (Transformers, Circuit Breakers) across New Zealand substations. 
